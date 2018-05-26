@@ -1,0 +1,82 @@
+﻿
+p {
+    font-family: 'Comic Sans MS';
+    line-height: 20px;
+    color: black;
+    text-align: center;
+}
+
+H2
+{
+    font-family: 'Courier New';
+    background: green;
+    font-size: 24pt;
+    font-weight: bold;
+    color: white;
+}
+H4 {
+    font-family: Verdana;
+    font-size: 16pt;
+    font-weight: bold;
+    color: orangered;
+}
+body {
+    background-image: url('https://i1.wp.com/www.elblogdeyes.com/wp-content/uploads/viajes2.jpg?w=620');
+    font-family: 'Courier New';
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 551px;
+    color: White;
+    text-align: center;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+#menu ul {
+    text-align: center;
+    list-style: none;
+}
+#menu ul li {
+        text-align: center;
+        background-color: cornflowerblue;
+        border: solid 1px white;
+        width: 150px;
+        height: 35px;
+        text-align: center;
+        line-height: 35px;
+        float: left;
+        position: relative;
+        border-radius: 10px;
+    }
+#menu ul li a
+{
+
+    text-decoration:none;
+    color:#fff;
+    display:block;
+}
+    #menu ul li a:hover {
+        background-color: #4cff00;
+        color: #0026ff;
+        border-radius: 10px;
+    }
+#menu ul ul 
+{
+     position:absolute;
+     display: none;
+     
+}
+#menu ul li > ul li {
+        background-color: #18e27f;
+        color: #0026ff;
+        border: solid:1px white;
+        border-radius: 10px;
+}
+#menu ul li:hover > ul {
+        display: block;
+        border-radius: 10px;
+}

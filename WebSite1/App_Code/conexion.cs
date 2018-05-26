@@ -20,7 +20,7 @@ public class conexion
         if (objConexion != null)
             return objConexion;
         objConexion = new SqlConnection();
-        objConexion.ConnectionString = "Data Source=DESKTOP-00QQ1J5;Initial Catalog=A_viaje;Integrated Security=True";
+        objConexion.ConnectionString = "Data Source=MEERCY;Initial Catalog=A_viaje;Integrated Security=True";
         try
         {
             objConexion.Open();
